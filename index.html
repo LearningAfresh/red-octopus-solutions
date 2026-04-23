@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Red Octopus Solutions</title>
-  <meta name="description" content="Red Octopus Solutions delivers technology-enabled learning, capability development and knowledge-sharing solutions." />
+  <meta name="description" content="Red Octopus Solutions provides independent risk assurance, bespoke solutions and learning services to help organisations manage risk with clarity, discretion and practical support." />
   <style>
     :root {
       --bg: #f5f5f2;
@@ -27,7 +27,7 @@
     }
 
     .wrap {
-      max-width: 900px;
+      max-width: 980px;
       margin: 0 auto;
       padding: 56px 20px;
     }
@@ -36,64 +36,85 @@
       background: var(--card);
       border: 1px solid var(--line);
       border-radius: 14px;
-      padding: 36px 28px;
+      padding: 40px 30px;
       box-shadow: 0 8px 24px rgba(0,0,0,0.04);
     }
 
     .logo {
       display: block;
-      max-width: 420px;
+      max-width: 460px;
       width: 100%;
       height: auto;
       margin: 0 auto 28px;
     }
 
     h1 {
-      margin: 0 0 8px;
+      margin: 0 0 10px;
       text-align: center;
-      font-size: 2.1rem;
+      font-size: 2.2rem;
       line-height: 1.15;
       color: var(--dark);
     }
 
     .intro {
       margin: 0 auto 28px;
-      max-width: 680px;
+      max-width: 760px;
       text-align: center;
       color: var(--muted);
       font-size: 1.05rem;
     }
 
     h2 {
-      margin: 28px 0 14px;
+      margin: 30px 0 14px;
       font-size: 1.05rem;
       color: var(--accent);
     }
 
-    .projects {
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-top: 8px;
+    }
+
+    .panel {
+      border-top: 1px solid var(--line);
+      padding-top: 14px;
+    }
+
+    .list {
       margin: 0;
       padding: 0;
       list-style: none;
     }
 
-    .projects li {
-      padding: 14px 0;
+    .list li {
+      padding: 12px 0;
       border-top: 1px solid var(--line);
     }
 
-    .projects li:first-child {
+    .list li:first-child {
       border-top: none;
       padding-top: 0;
     }
 
-    .projects strong {
+    .list strong {
       display: block;
       margin-bottom: 4px;
       color: var(--text);
     }
 
+    .guarantees {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .guarantees li {
+      margin-bottom: 10px;
+    }
+
     .status {
-      margin-top: 28px;
+      margin-top: 30px;
       padding-top: 20px;
       border-top: 1px solid var(--line);
       color: var(--muted);
@@ -115,7 +136,11 @@
       text-decoration: underline;
     }
 
-    @media (max-width: 640px) {
+    @media (max-width: 760px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
       .card {
         padding: 28px 20px;
       }
@@ -125,7 +150,7 @@
       }
 
       .logo {
-        max-width: 320px;
+        max-width: 340px;
       }
     }
   </style>
@@ -138,30 +163,75 @@
       <h1>Red Octopus Solutions</h1>
 
       <p class="intro">
-        Red Octopus Solutions supports organisations with technology-enabled learning,
-        capability development and knowledge-sharing approaches designed to improve
-        practice in real working environments.
+        Red Octopus Solutions offers independent risk assurance, bespoke solutions and learning services that give business and organisational leaders greater clarity, confidence and peace of mind.
       </p>
 
-      <h2>Areas of work</h2>
-      <ul class="projects">
+      <p class="intro">
+        ROS combines deep operational experience from senior policing, counter-terrorism, serious organised crime, military special operations and workplace learning to help organisations identify risk, strengthen resilience and embed effective practice.
+      </p>
+
+      <div class="grid">
+        <div>
+          <h2>What we do</h2>
+          <ul class="list">
+            <li>
+              <strong>Risk assurance and review</strong>
+              Independent, evidence-based review of risk, vulnerability, security and organisational practice.
+            </li>
+            <li>
+              <strong>Creative solutions</strong>
+              Bespoke, pragmatic and scalable solutions designed around the client context rather than off-the-shelf models.
+            </li>
+            <li>
+              <strong>Learning and support</strong>
+              Blended, coached and digitally mediated learning that embeds assurance into everyday routines, habits and culture.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>What ROS guarantees</h2>
+          <ul class="guarantees">
+            <li><strong>Independence</strong> — rigorous assessment grounded in context and evidence.</li>
+            <li><strong>End-to-end solutions</strong> — from review and diagnosis through to implementation and support.</li>
+            <li><strong>Learning</strong> — practical programmes that sustain assurance through behaviour, culture and habit.</li>
+            <li><strong>Discretion</strong> — credibility, trust and confidentiality shaped by high-stakes operational backgrounds.</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>Selected projects</h2>
+      <ul class="list">
         <li>
-          <strong>Learning and capability development</strong>
-          Design of practical learning solutions aligned to operational needs and workforce capability.
+          <strong>Liverpool Women’s NHS Foundation Trust</strong>
+          Review of organisational security arrangements following a terrorist attack, resulting in a comprehensive board-level report, practical recommendations and continuing specialist training support.
         </li>
         <li>
-          <strong>Knowledge-sharing and digital platforms</strong>
-          Development of systems and approaches that help busy teams access, share and apply knowledge more effectively.
+          <strong>Ministry of Defence</strong>
+          Root-and-branch feasibility review of options for a single defence serious crime capability, with reporting and briefing to senior stakeholders.
         </li>
         <li>
-          <strong>Professional learning in the flow of work</strong>
-          Use of technology to embed development directly into day-to-day practice rather than treating learning as a separate event.
+          <strong>Royal Cayman Islands Police Service</strong>
+          Tendered and delivered a blended crisis leadership programme for senior leaders, combining digital active learning with coached scenario-based development.
         </li>
         <li>
-          <strong>Consultancy and project support</strong>
-          Support for organisations designing, reviewing or implementing learning, improvement and innovation projects.
+          <strong>NHS Security and Safety Review</strong>
+          Support to NHS organisations in reviewing threats, vulnerabilities and existing arrangements, with practical and cost-effective recommendations.
+        </li>
+        <li>
+          <strong>League Against Cruel Sports</strong>
+          Independent review of intelligence processes supported by blended and coached training.
+        </li>
+        <li>
+          <strong>Foreign Office / Somaliland scoping work</strong>
+          Review of capacity to counter extremism with a focus on detention centre contexts.
         </li>
       </ul>
+
+      <h2>Approach</h2>
+      <p>
+        ROS works holistically. Assurance is not treated as a one-off inspection exercise, but as something that must be built, reinforced and sustained through context-sensitive solutions and effective workplace learning.
+      </p>
 
       <div class="status">
         This site is currently being refreshed and remains online as a simple holding page.
